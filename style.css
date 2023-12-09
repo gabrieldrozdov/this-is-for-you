@@ -3,7 +3,7 @@
 	src:
 		url('GDLimkinVF.ttf') format('TrueType'),
 		url('GDLimkinVF.woff') format('woff'),
-		url('GDLimkinVF.woff2') format('woff2'),;
+		url('GDLimkinVF.woff2') format('woff2');
 }
 * {
 	margin: 0;
