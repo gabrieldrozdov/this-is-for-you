@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "Limkin";
 	src:
-		url('GDLimkinVF.ttf') format('ttf'),
+		url('GDLimkinVF.ttf') format('TrueType'),
 		url('GDLimkinVF.woff') format('woff'),
 		url('GDLimkinVF.woff2') format('woff2'),;
 }
