@@ -133,6 +133,7 @@ strong {
 	display: inline-block;
 	transform: translateY(-1.5px);
 	padding: 4px 8px 2px 8px;
+	text-align: center;
 	line-height: 1em;
 	background-color: rgba(0,0,0,.5);
 	color: black;

@@ -48,4 +48,6 @@ function openTranscript(elmnt) {
 	const container = document.querySelector('.container');
 	container.dataset.preview = 0;
 	container.dataset.transcript = 1;
+	const preview = document.querySelector('.preview');
+	preview.src = '';
 }
