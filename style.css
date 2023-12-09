@@ -1,6 +1,9 @@
 @font-face {
 	font-family: "Limkin";
-	src: url('GDLimkinVF.woff2') format('woff2');
+	src:
+		url('GDLimkinVF.ttf') format('ttf'),
+		url('GDLimkinVF.woff') format('woff'),
+		url('GDLimkinVF.woff2') format('woff2'),;
 }
 * {
 	margin: 0;
@@ -51,7 +54,7 @@ strong {
 	background-color: black;
 }
 .info-title-main {
-	padding: 40px 40px 0 40px;
+	padding: 40px 20px 0 20px;
 	font-size: 64px;
 	letter-spacing: -.02em;
 	line-height: 1em;
@@ -59,7 +62,7 @@ strong {
 	font-variation-settings: 'wght' 200, 'SRFF' 0;
 }
 .info-title-subtitle {
-	padding-top: 20px;
+	padding: 20px 20px 0 20px;
 	text-align: center;
 	text-transform: uppercase;
 	font-variation-settings: 'wght' 650, 'SRFF' 0;
@@ -67,7 +70,7 @@ strong {
 	font-size: 10px;
 }
 .info-title-credit {
-	padding-bottom: 40px;
+	padding: 0 20px 40px 20px;
 	opacity: .25;
 	text-align: center;
 	text-transform: uppercase;
